@@ -3295,3 +3295,14 @@ Copyright (c) 2013 Daniel Eden
   -webkit-animation-name: zoomOutUp;
   animation-name: zoomOutUp;
 }
+html, body {
+    height: 100%;
+}
+.container-fluid {
+    height: 100%;
+    overflow-y: hidden; /* don't show content that exceeds my height */
+}
+.body-film {
+    min-height: 100%;
+    overflow-y: scroll;
+}
