@@ -30,6 +30,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</script>
 <!-- animated-css -->
 <script src="js/bootstrap.min.js"></script>
+<script type="text/javascript">
+$(function() {
+		$('.pop').on('click', function() {
+			$('.imagepreview').attr('src', $(this).find('img').attr('src'));
+			$('#imagemodal').modal('show');   
+		});		
+});
+</script>
 </head>
 <body>
 <!--header-top start here-->
@@ -119,39 +127,39 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	  	</div>
 		<div class="gallery-bott">
 			<div class="col-md-4 col1 gallery-grid">
-				<a href="images/restaurant/r1.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+				<a href="#" rel="title" class="pop  thickbox">
 					<img class="img-responsive" src="images/restaurant/r1.jpg" alt="">		
 					</a>
 			</div>
 			<div class="col-md-4 col1 gallery-grid">
-				<a href="images/restaurant/r2.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+				<a href="#" rel="title" class="pop  thickbox">
 			<img class="img-responsive" src="images/restaurant/r2.jpg" alt="">		
 					</a>
 					</div>
 
 						<div class="col-md-4 col1 gallery-grid">
-				<a href="images/restaurant/r3.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+				<a href="#" rel="title" class="pop  thickbox">
 	<img class="img-responsive" src="images/restaurant/r3.jpg" alt="">		
 					</a>
 					</div>
 
 
 						<div class="col-md-4 col1 gallery-grid">
-				<a href="images/restaurant/r4.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+				<a href="#" rel="title" class="pop  thickbox">
 	<img class="img-responsive" src="images/restaurant/r4.jpg" alt="">		
 					</a>
 					</div>
 
 
 						<div class="col-md-4 col1 gallery-grid">
-				<a href="images/restaurant/r5.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+				<a href="#" rel="title" class="pop  thickbox">
 	<img class="img-responsive" src="images/restaurant/r5.jpg" alt="">		
 					</a>
 					</div>
 
 
 						<div class="col-md-4 col1 gallery-grid">
-				<a href="images/restaurant/r6.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+				<a href="#" rel="title" class="pop  thickbox">
 	<img class="img-responsive" src="images/restaurant/r6.jpg" alt="">		
 					</a>
 					</div>
@@ -160,21 +168,21 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 
 	<div class="col-md-4 col1 gallery-grid">
-				<a href="images/restaurant/r7.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+				<a href="#" rel="title" class="pop  thickbox">
 	<img class="img-responsive" src="images/restaurant/r7.jpg" alt="">		
 					</a>
 					</div>
 
 
 	<div class="col-md-4 col1 gallery-grid">
-				<a href="images/restaurant/r8.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+				<a href="#" rel="title" class="pop">
 	<img class="img-responsive" src="images/restaurant/r8.jpg" alt="">		
 					</a>
 					</div>
 
 
 	<div class="col-md-4 col1 gallery-grid">
-				<a href="images/restaurant/r9.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+				<a href="#" rel="title" class="pop">
 	<img class="img-responsive" src="images/restaurant/r9.jpg" alt="">		
 					</a>
 					</div>
@@ -225,6 +233,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </div>
 <!--about advantages end here-->
 <!-- team start here-->
+    
+<div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">              
+      <div class="modal-body">
+      	<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <img src="" class="imagepreview" style="width: 100%;" >
+      </div>
+    </div>
+  </div>
+</div>
 
 <!--footer end here-->
 <!--copy rights start here-->
@@ -244,7 +263,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<ul>
 					<li><span class="phone"> </span> <h6>+95 9445460125 , +95 944560126</h6></li>
 					
-					<li><span class="email"> </span><h6><a href="mailto:info@example.com">contact@springinle.com</a></h6></li>
+					<li><span class="email"> </span><h6><a href="mailto:contact@springinle.com">contact@springinle.com</a></h6></li>
 				</ul>
 			</div>
 		  <div class="clearfix"> </div>

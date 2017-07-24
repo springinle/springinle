@@ -12,6 +12,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <script src="js/jquery-1.11.0.min.js"></script>
 <!-- Custom Theme files -->
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+<script type="text/javascript">
+$(function() {
+		$('.pop').on('click', function() {
+			$('.imagepreview').attr('src', $(this).find('img').attr('src'));
+			$('#imagemodal').modal('show');   
+		});		
+});
+</script>
 <!-- Custom Theme files -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -45,7 +53,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="col-md-8 header-address wow bounceInRight" data-wow-delay="0.3s">
 				<ul>
 					<li><span class="phone"> </span> <h6>(220) 280-31589</h6></li>
-					<li><span class="email"> </span><h6><a href="mailto:info@example.com">Youremail@gmail.com</a></h6></li>
+					<li><span class="email"> </span><h6><a href="mailto:contact@springinle.com">Youremail@gmail.com</a></h6></li>
 				</ul>
 			</div>
 		  <div class="clearfix"> </div>
@@ -143,6 +151,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	  	</div>
 		<div class="gallery-bott">
 			<div class="col-md-4 col1 gallery-grid">
+
 				<a href="images/r3.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
 
 						<figure class="effect-bubba">
@@ -273,6 +282,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 	</div>
 </div>
+
+<a href="#" class="pop">
+    <img src="http://patyshibuya.com.br/wp-content/uploads/2014/04/04.jpg" style="width: 400px; height: 264px;">
+</a>
+    
 <!--footer end here-->
 <!--copy rights start here-->
 <div class="copy-right">

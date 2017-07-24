@@ -1,0 +1,93 @@
+Searching 26 files for "info@example.com"
+
+/Users/mitapp.dev/Desktop/Works/springinle.github.io/about.html:
+  214  					<li><span class="phone"> </span> <h6>+95 9445460125 , +95 944560126</h6></li>
+  215  					
+  216: 					<li><span class="email"> </span><h6><a href="mailto:info@example.com">contact@springinle.com</a></h6></li>
+  217  				</ul>
+  218  			</div>
+
+/Users/mitapp.dev/Desktop/Works/springinle.github.io/activity.html:
+  231  					<li><span class="phone"> </span> <h6>+95 9445460125 , +95 944560126</h6></li>
+  232  					
+  233: 					<li><span class="email"> </span><h6><a href="mailto:info@example.com">contact@springinle.com</a></h6></li>
+  234  				</ul>
+  235  			</div>
+
+/Users/mitapp.dev/Desktop/Works/springinle.github.io/contact.html:
+  103  				
+  104  					<p>+95 9445460125 , +95 944560126</p>
+  105: 					<p><a href="mailto:info@example.com">contact@springinle.com</a></p>
+  106  				</div>
+  107  			  <div class="clearfix"> </div>
+  ...
+  184  					<li><span class="phone"> </span> <h6>+95 9445460125 , +95 944560126</h6></li>
+  185  					
+  186: 					<li><span class="email"> </span><h6><a href="mailto:info@example.com">contact@springinle.com</a></h6></li>
+  187  				</ul>
+  188  			</div>
+
+/Users/mitapp.dev/Desktop/Works/springinle.github.io/index.html:
+  453  					<li><span class="phone"> </span> <h6>+95 9445460125 , +95 944560126</h6></li>
+  454  					
+  455: 					<li><span class="email"> </span><h6><a href="mailto:info@example.com">contact@springinle.com</a></h6></li>
+  456  				</ul>
+  457  			</div>
+
+/Users/mitapp.dev/Desktop/Works/springinle.github.io/restaurant.html:
+  245  					<li><span class="phone"> </span> <h6>+95 9445460125 , +95 944560126</h6></li>
+  246  					
+  247: 					<li><span class="email"> </span><h6><a href="mailto:info@example.com">contact@springinle.com</a></h6></li>
+  248  				</ul>
+  249  			</div>
+
+/Users/mitapp.dev/Desktop/Works/springinle.github.io/room.html:
+   46  				<ul>
+   47  					<li><span class="phone"> </span> <h6>(220) 280-31589</h6></li>
+   48: 					<li><span class="email"> </span><h6><a href="mailto:info@example.com">Youremail@gmail.com</a></h6></li>
+   49  				</ul>
+   50  			</div>
+
+/Users/mitapp.dev/Desktop/Works/springinle.github.io/rooms.html:
+  516  					<li><span class="phone"> </span> <h6>+95 9445460125 , +95 944560126</h6></li>
+  517  					
+  518: 					<li><span class="email"> </span><h6><a href="mailto:info@example.com">contact@springinle.com</a></h6></li>
+  519  				</ul>
+  520  			</div>
+
+/Users/mitapp.dev/Desktop/Works/springinle.github.io/services.html:
+   47  				<ul>
+   48  					<li><span class="phone"> </span> <h6>(220) 280-31589</h6></li>
+   49: 					<li><span class="email"> </span><h6><a href="mailto:info@example.com">Youremail@gmail.com</a></h6></li>
+   50  				</ul>
+   51  			</div>
+
+/Users/mitapp.dev/Desktop/Works/springinle.github.io/shortcodes.html:
+   49  				<ul>
+   50  					<li><span class="phone"> </span> <h6>(220) 280-31589</h6></li>
+   51: 					<li><span class="email"> </span><h6><a href="mailto:info@example.com">Youremail@gmail.com</a></h6></li>
+   52  				</ul>
+   53  			</div>
+
+/Users/mitapp.dev/Desktop/Works/springinle.github.io/single.html:
+   49  				<ul>
+   50  					<li><span class="phone"> </span> <h6>(220) 280-31589</h6></li>
+   51: 					<li><span class="email"> </span><h6><a href="mailto:info@example.com">Youremail@gmail.com</a></h6></li>
+   52  				</ul>
+   53  			</div>
+
+/Users/mitapp.dev/Desktop/Works/springinle.github.io/untitled.html:
+  515  					<li><span class="phone"> </span> <h6>+95 9445460125 , +95 944560126</h6></li>
+  516  					
+  517: 					<li><span class="email"> </span><h6><a href="mailto:info@example.com">contact@springinle.com</a></h6></li>
+  518  				</ul>
+  519  			</div>
+
+<untitled 284>:
+  244  					<li><span class="phone"> </span> <h6>+95 9445460125 , +95 944560126</h6></li>
+  245  					
+  246: 					<li><span class="email"> </span><h6><a href="mailto:info@example.com">contact@springinle.com</a></h6></li>
+  247  				</ul>
+  248  			</div>
+
+13 matches across 12 files
