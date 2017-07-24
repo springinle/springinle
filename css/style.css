@@ -6,11 +6,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
 /*Eliminates padding, centers the thumbnail */
 
-body, html {
-padding: 0;
-margin: 0;
-text-align: center;
-}
+
 
 /* Styles the thumbnail */
 
