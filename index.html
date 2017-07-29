@@ -12,15 +12,17 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <script src="js/jquery-1.11.0.min.js"></script>
 <!-- Custom Theme files -->
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
-<link href="css/style1.css" rel="stylesheet" type="text/css" media="all" />	
+<!-- <link href="css/style1.css" rel="stylesheet" type="text/css" media="all" />	 -->
 <!-- Custom Theme files -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Mr Hotel Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!--Google Fonts-->
 <link href='//fonts.googleapis.com/css?family=Hind:400,300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link href='//fonts.googleapis.com/css?family=Aladin' rel='stylesheet' type='text/css'>
 <script src="js/bootstrap.min.js"></script>
 <!--google fonts-->
@@ -120,19 +122,77 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </div>
 <!--header end here-->
 <!--banner  start hwew-->
-<div class="banner">
-	<div class="container">
-		<div class="banner-main wow zoomIn" data-wow-delay="0.3s">
-			<h2>Spring Lodge Inle</h2>
+
+<!-- <div style="width: 100% margin:0px; height: 80px; padding: 0px;">
+
+  <img class="mySlides " src="images/hotel.jpg" style="width:100%;">
+   <div class="w3-display-middle w3-container">
+    <h2>Spring Lodge Inle</h2>
 			<h6>Welcome To Nyaung Shwe</h6>
 			<p> We offer you the best hotel with an impressive history
 			</p>
-		</div>
+  </div>
+
+  <img class="mySlides" src="images/k.jpg" style="width:100%;">
+
+  <img class="mySlides" src="images/hotel.jpg" style="width:100%;">
+  <img class="mySlides" src="images/hotel.jpg" style="width:100%;">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div> -->
+
+<div id="myCarousel" class="banner carousel slide"  data-ride="carousel">
+    <!-- Carousel indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>   
+
+    <!-- Wrapper for carousel items -->
+    <div class="carousel-inner">
+        <div class="item active">
+              <img class=" img-fluid" src="images/rrr.JPG" width="100%"  height="100" alt="First slide">
+
+        </div>
+        <div class="item">
+              <img class=" img-fluid" src="images/r.JPG"  width="100%" height="100" alt="First slide">
+        </div>
+        <div class="item">
+              <img class=" img-fluid" src="images/rr.JPG"  width="100%" height="100" alt="First slide">
+        </div>
     </div>
+
+ <div class="w3-display-middle w3-container banner-main">
+    <h2>Spring Lodge Inle</h2>
+			<h6>Welcome To Nyaung Shwe</h6>
+			<p> We offer you the best hotel with an impressive history
+			</p>
+  </div>
+      <!-- Carousel controls -->
+    <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="carousel-control right" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
 </div>
+
+
+
+
+
+
+<!-- <div class="banner">
+
+<img class="mySlides img-fluid"" src="images/hotel.jpg" style="width:100%;" height="500" />
+
+
+</div> -->
 <!--BANNER END HERE-->
 <!--information start here-->
-<div class="information">
+<div class="information" >
 	<div class="container">
 		<div class="information-main">
 			  <div class="information-grid five-star wow slideInLeft" data-wow-delay="0.3s">
@@ -528,5 +588,28 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
    <img  src="images/pool.jpg"/>
    <a class="lightbox-close" href="#"></a>
 </div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+
+</script>
+
 </body>
 </html>
