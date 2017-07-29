@@ -27,6 +27,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		 // new WOW().init();
 		</script>
 <!-- animated-css -->
+<style>
+		#map {
+			height: 400px;
+			width: 100%;
+		}
+	</style>
 <script src="js/bootstrap.min.js"></script>
 </head>
 <body>
@@ -98,9 +104,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<div class="col-md-3 contact-right">
 					<h1>Address</h1>
 					<p>76 - 78,Nan Thae St, Nann Pan Qtr, Nyaung Shwe,Shan State</p>
-				
+			
 					<p>+95 9445460125 , +95 944560126</p>
 					<p><a href="mailto:contact@springinle.com">contact@springinle.com</a></p>
+
 				</div>
 			  <div class="clearfix"> </div>
 			</div>
@@ -131,7 +138,28 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				 <span class="ftr-line flm"> </span>
 				<p style="font-size: 20px;font-family: sans-serif;font-weight: 200">78,Nan Thae St, Nan Pan Qt, Nyaung Shwe,Shan State</p>
 				
-				
+					 <div id="map"></div>
+					<script>
+						function initMap() {
+							var uluru = {lat: 20.6571265, lng: 96.9237735};
+							var map = new google.maps.Map(document.getElementById('map'), {
+								zoom: 17,
+								center: uluru
+							});
+							var marker = new google.maps.Marker({
+								position: uluru,
+								map: map
+							});
+							center = bounds.getCenter();
+							map.fitBounds(bounds);
+						}
+
+
+
+					</script>
+					<script async defer
+					src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCdYLYNETtbgE4OEuINGFo59pKPantTmck&callback=initMap">
+				</script>
 				
 				
 				

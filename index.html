@@ -6,61 +6,67 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Spring Lodge Inle</title>
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="js/jquery-1.11.0.min.js"></script>
-<!-- Custom Theme files -->
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
-<!-- <link href="css/style1.css" rel="stylesheet" type="text/css" media="all" />	 -->
-<!-- Custom Theme files -->
-<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Spring Lodge Inle</title>
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="js/jquery-1.11.0.min.js"></script>
+	<!-- Custom Theme files -->
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+	<!-- <link href="css/style1.css" rel="stylesheet" type="text/css" media="all" />	 -->
+	<!-- Custom Theme files -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Mr Hotel Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<!--Google Fonts-->
-<link href='//fonts.googleapis.com/css?family=Hind:400,300' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link href='//fonts.googleapis.com/css?family=Aladin' rel='stylesheet' type='text/css'>
-<script src="js/bootstrap.min.js"></script>
-<!--google fonts-->
-<!-- animated-css -->
-		<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
-		<script src="js/wow.min.js"></script>
-		<script>
-		 new WOW().init();
-		</script>
-<!-- animated-css -->
-<script src="js/modernizr.js"></script>
-<script>
-    $(document).ready(function(){
-        if (Modernizr.touch) {
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="Mr Hotel Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+	Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<!--Google Fonts-->
+	<link href='//fonts.googleapis.com/css?family=Hind:400,300' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link href='//fonts.googleapis.com/css?family=Aladin' rel='stylesheet' type='text/css'>
+	<style>
+		#map {
+			height: 400px;
+			width: 100%;
+		}
+	</style>
+	<script src="js/bootstrap.min.js"></script>
+	<!--google fonts-->
+	<!-- animated-css -->
+	<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+	<script src="js/wow.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
+	<!-- animated-css -->
+	<script src="js/modernizr.js"></script>
+	<script>
+		$(document).ready(function(){
+			if (Modernizr.touch) {
             // show the close overlay button
             $(".close-overlay").removeClass("hidden");
             // handle the adding of hover class when clicked
             $(".branch-gd").click(function(e){
-                if (!$(this).hasClass("hover")) {
-                    $(this).addClass("hover");
-                }
+            	if (!$(this).hasClass("hover")) {
+            		$(this).addClass("hover");
+            	}
             });
             // handle the closing of the overlay
             $(".close-overlay").click(function(e){
-                e.preventDefault();
-                e.stopPropagation();
-                if ($(this).closest(".branch-gd").hasClass("hover")) {
-                    $(this).closest(".branch-gd").removeClass("hover");
-                }
+            	e.preventDefault();
+            	e.stopPropagation();
+            	if ($(this).closest(".branch-gd").hasClass("hover")) {
+            		$(this).closest(".branch-gd").removeClass("hover");
+            	}
             });
         } else {
             // handle the mouseenter functionality
             $(".branch-gd").mouseenter(function(){
-                $(this).addClass("hover");
+            	$(this).addClass("hover");
             })
             // handle the mouseleave functionality
             .mouseleave(function(){
-                $(this).removeClass("hover");
+            	$(this).removeClass("hover");
             });
         }
     });
@@ -69,59 +75,59 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 </head>
 <body>
-<!--header-top start here-->
+	<!--header-top start here-->
 
-<!--header-top end here-->
-<!--header start here-->
+	<!--header-top end here-->
+	<!--header start here-->
 	<!-- NAVBAR
-		================================================== -->
-<div class="header">
-	<div class="fixed-header">	
+	================================================== -->
+	<div class="header">
+		<div class="fixed-header">	
 
-		    <div class="navbar-wrapper">
-		      <div class="container">
-		        <nav class="navbar navbar-inverse navbar-static-top">
-		             <div class="navbar-header">
-			              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-			                <span class="sr-only">Toggle navigation</span>
-			                <span class="icon-bar"></span>
-			                <span class="icon-bar"></span>
-			                <span class="icon-bar"></span>
-			              </button>
-			              <div class="logo wow slideInLeft" data-wow-delay="0.3s">
-							  <div>
-			                    <a style="margin-top: -15px;" class="navbar-brand" href="index.html"><img style="width: 58px; height: 58px;" src="images/sp_logo.jpeg" /></a>
-								<p style="margin-left: 60px;font-size: 20px;font-family: sans-serif;font-weight: 200"> Spring Lodge Inle </p>
-							  </div>
-			              </div>
-						  
-			          </div>
-		            <div id="navbar" class="navbar-collapse collapse">
-		            <nav class="cl-effect-16" id="cl-effect-16">
-						
-		              <ul class="nav navbar-nav">
-		               <li><a class="active" href="index.html" data-hover="Home">Home</a></li>
-		                <li><a href="about.html" data-hover="About">About</a></li>
-		                <li><a href="activity.html"  data-hover="Activities">Activities</a></li>
-		                <li><a href="rooms.html"  data-hover="Rooms">Rooms</a></li>
-		                <li><a href="restaurant.html"   data-hover="Restaurant">Restaurant</a></li>
-						<!--<li><a href="services.html" data-hover="Services">Services</a></li>-->
-						<!--<li><a href="room.html" data-hover="Rooms">Rooms</a></li>-->
-						<li><a href="contact.html" data-hover="Contact">Contact</a></li>						
-		              </ul>
-					
-		            </nav>
+			<div class="navbar-wrapper">
+				<div class="container">
+					<nav class="navbar navbar-inverse navbar-static-top">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<div class="logo wow slideInLeft" data-wow-delay="0.3s">
+								<div>
+									<a style="margin-top: -15px;" class="navbar-brand" href="index.html"><img style="width: 58px; height: 58px;" src="images/sp_logo.jpeg" /></a>
+									<p style="margin-left: 60px;font-size: 20px;font-family: sans-serif;font-weight: 200"> Spring Lodge Inle </p>
+								</div>
+							</div>
 
-		            </div>
-		            <div class="clearfix"> </div>
-		             </nav>
-		          </div>
-		           <div class="clearfix"> </div>
-		    </div>
-	 </div>
-</div>
-<!--header end here-->
-<!--banner  start hwew-->
+						</div>
+						<div id="navbar" class="navbar-collapse collapse">
+							<nav class="cl-effect-16" id="cl-effect-16">
+
+								<ul class="nav navbar-nav">
+									<li><a class="active" href="index.html" data-hover="Home">Home</a></li>
+									<li><a href="about.html" data-hover="About">About</a></li>
+									<li><a href="activity.html"  data-hover="Activities">Activities</a></li>
+									<li><a href="rooms.html"  data-hover="Rooms">Rooms</a></li>
+									<li><a href="restaurant.html"   data-hover="Restaurant">Restaurant</a></li>
+									<!--<li><a href="services.html" data-hover="Services">Services</a></li>-->
+									<!--<li><a href="room.html" data-hover="Rooms">Rooms</a></li>-->
+									<li><a href="contact.html" data-hover="Contact">Contact</a></li>						
+								</ul>
+
+							</nav>
+
+						</div>
+						<div class="clearfix"> </div>
+					</nav>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!--header end here-->
+	<!--banner  start hwew-->
 
 <!-- <div style="width: 100% margin:0px; height: 80px; padding: 0px;">
 
@@ -143,40 +149,40 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </div> -->
 
 <div id="myCarousel" class="banner carousel slide"  data-ride="carousel">
-    <!-- Carousel indicators -->
-    <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>   
+	<!-- Carousel indicators -->
+	<ol class="carousel-indicators">
+		<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+		<li data-target="#myCarousel" data-slide-to="1"></li>
+		<li data-target="#myCarousel" data-slide-to="2"></li>
+	</ol>   
 
-    <!-- Wrapper for carousel items -->
-    <div class="carousel-inner">
-        <div class="item active">
-              <img class=" img-fluid" src="images/rrr.JPG" width="100%"  height="100" alt="First slide">
+	<!-- Wrapper for carousel items -->
+	<div class="carousel-inner">
+		<div class="item active">
+			<img class=" img-fluid" src="images/rrr.JPG" width="100%"  height="100" alt="First slide">
 
-        </div>
-        <div class="item">
-              <img class=" img-fluid" src="images/r.JPG"  width="100%" height="100" alt="First slide">
-        </div>
-        <div class="item">
-              <img class=" img-fluid" src="images/rr.JPG"  width="100%" height="100" alt="First slide">
-        </div>
-    </div>
+		</div>
+		<div class="item">
+			<img class=" img-fluid" src="images/r.JPG"  width="100%" height="100" alt="First slide">
+		</div>
+		<div class="item">
+			<img class=" img-fluid" src="images/rr.JPG"  width="100%" height="100" alt="First slide">
+		</div>
+	</div>
 
- <div class="w3-display-middle w3-container banner-main">
-    <h2>Spring Lodge Inle</h2>
-			<h6>Welcome To Nyaung Shwe</h6>
-			<p> We offer you the best hotel with an impressive history
-			</p>
-  </div>
-      <!-- Carousel controls -->
-    <a class="carousel-control left" href="#myCarousel" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left"></span>
-    </a>
-    <a class="carousel-control right" href="#myCarousel" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right"></span>
-    </a>
+	<div class="w3-display-middle w3-container banner-main">
+		<h2>Spring Lodge Inle</h2>
+		<h6>Welcome To Nyaung Shwe</h6>
+		<p> We offer you the best hotel with an impressive history
+		</p>
+	</div>
+	<!-- Carousel controls -->
+	<a class="carousel-control left" href="#myCarousel" data-slide="prev">
+		<span class="glyphicon glyphicon-chevron-left"></span>
+	</a>
+	<a class="carousel-control right" href="#myCarousel" data-slide="next">
+		<span class="glyphicon glyphicon-chevron-right"></span>
+	</a>
 </div>
 
 
@@ -195,42 +201,42 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div class="information" >
 	<div class="container">
 		<div class="information-main">
-			  <div class="information-grid five-star wow slideInLeft" data-wow-delay="0.3s">
-			  	<div class="col-md-4 hotel-info">
-			  		<div class="info-left">
-			  			<img src="images/s5.png" alt="">
-			  		</div>
-			  		<div class="info-right">
-			  			<h4>Star Hotel</h4>
-			  			<p>Luxury hotel that will let you step into celebrity’s slippers.
-			  			</p>
-			  		</div>
-			  	  <div class="clearfix"> </div>
-			  	</div>
-			  	<div class="col-md-4 hotel-info">
-			  		<div class="info-left">
-			  			<img src="images/s2.png" alt="">
-			  		</div>
-			  		<div class="info-right">
-			  			<h4>services</h4>
-			  			<p>Room Service is available from 11:30 am until 23.00 pm. You can order from the breakfast menu from 8.30 am until 11.00 am or until 23.00 other delights from the Restaurant menu.</p>
-			  		</div>
-			  	  <div class="clearfix"> </div>
-			  	</div>
-			  	<div class="col-md-4 hotel-info">
-			  		<div class="info-left">
-			  			<img src="images/s4.png" alt="">
-			  		</div>
-			  		<div class="info-right">
-			  			<h4>In Room Safe</h4>
-			  			<p>For your comfort you will find in each room an electronic, extremely easy to use safe.
+			<div class="information-grid five-star wow slideInLeft" data-wow-delay="0.3s">
+				<div class="col-md-4 hotel-info">
+					<div class="info-left">
+						<img src="images/s5.png" alt="">
+					</div>
+					<div class="info-right">
+						<h4>Star Hotel</h4>
+						<p>Luxury hotel that will let you step into celebrity’s slippers.
+						</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-md-4 hotel-info">
+					<div class="info-left">
+						<img src="images/s2.png" alt="">
+					</div>
+					<div class="info-right">
+						<h4>services</h4>
+						<p>Room Service is available from 11:30 am until 23.00 pm. You can order from the breakfast menu from 8.30 am until 11.00 am or until 23.00 other delights from the Restaurant menu.</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-md-4 hotel-info">
+					<div class="info-left">
+						<img src="images/s4.png" alt="">
+					</div>
+					<div class="info-right">
+						<h4>In Room Safe</h4>
+						<p>For your comfort you will find in each room an electronic, extremely easy to use safe.
 
-			  			</p>
-			  		</div>
-			  	  <div class="clearfix"> </div>
-			  	</div>
-			  	<div class="clearfix"> </div>
-			  </div>
+						</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
 			
 			  <!--<div class="information-grid wow slideInRight" data-wow-delay="0.3s">
 			  	<div class="col-md-4 hotel-info">
@@ -265,24 +271,24 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			  	</div>-->
 			  	<div class="clearfix"> </div>
 			  </div>
-			<div class="clearfix"> </div>
+			  <div class="clearfix"> </div>
+			</div>
 		</div>
 	</div>
-</div>
-<!--information end here-->
-<!--leaves start here-->
-<div class="leaves">
-	<div class="container">
-		<div class="leaves-main wow zoomIn" data-wow-delay="0.3s">
-			<h1>You Never Leave Us</h1>
-			<h6>100% Friendly services</h6>
-			<p>Our hotel is build with love and hospitality,promising the enjoyment of customers.</p>
+	<!--information end here-->
+	<!--leaves start here-->
+	<div class="leaves">
+		<div class="container">
+			<div class="leaves-main wow zoomIn" data-wow-delay="0.3s">
+				<h1>You Never Leave Us</h1>
+				<h6>100% Friendly services</h6>
+				<p>Our hotel is build with love and hospitality,promising the enjoyment of customers.</p>
+			</div>
 		</div>
 	</div>
-</div>
-<!--leaves end here-->
-<!--branches start here-->
-<div class="branches">
+	<!--leaves end here-->
+	<!--branches start here-->
+	<div class="branches">
 		<div class="branches-main wow zoomIn" data-wow-delay="0.3s">
 			<div class="branches-top">
 				<h3>Gallery</h3>
@@ -290,68 +296,68 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div style="margin-left: 5px;" id="effect-5" class="branch-btm">
 				<div  class="col-md-3 branch-gd-main" >					
 					<div class="branch-gd  no-mar"> 
-					<a href="#ax" rel="title" class="thickbox">
-						<img src="images/ax.jpg" alt="" class="img-responsive">
+						<a href="#ax" rel="title" class="thickbox">
+							<img src="images/ax.jpg" alt="" class="img-responsive">
 						</a>
-					
-                    </div>           
+
+					</div>           
 					<div class="branch-gd went-branc">
-					<a href="#ss" rel="title" class="thickbox">
-						<img src="images/ss.jpg" alt="" class="img-responsive">
+						<a href="#ss" rel="title" class="thickbox">
+							<img src="images/ss.jpg" alt="" class="img-responsive">
 						</a>
-					
+
 					</div>      
 				</div>				
 				<div class="col-md-3 branch-gd-main">
 					<div class="branch-gd went-branc">
-					<a href="#b" rel="title" class="thickbox">
-						<img src="images/b.JPG" alt="" class="img-responsive">
-					</a>
+						<a href="#b" rel="title" class="thickbox">
+							<img src="images/b.JPG" alt="" class="img-responsive">
+						</a>
 					</div>
 					
 					<div class="branch-gd went-branc">
-					<a href="#k" rel="title" class="thickbox">
-						<img src="images/k.JPG" alt="" class="img-responsive">
-					</a>
+						<a href="#k" rel="title" class="thickbox">
+							<img src="images/k.JPG" alt="" class="img-responsive">
+						</a>
 					</div>
 					
 				</div>
 				<div class="col-md-3 branch-gd-main">
 					<div class="branch-gd">
-					<a href="#m" rel="title" class="thickbox">
-						<img src="images/m.JPG" alt="" class="img-responsive">
-					</a>
+						<a href="#m" rel="title" class="thickbox">
+							<img src="images/m.JPG" alt="" class="img-responsive">
+						</a>
 					</div>
 					<div class="branch-gd">
-					<a href="#l" rel="title" class="thickbox">
-						<img src="images/l.JPG" alt="" class="img-responsive">
-					</a>
+						<a href="#l" rel="title" class="thickbox">
+							<img src="images/l.JPG" alt="" class="img-responsive">
+						</a>
 					</div>	
 				</div>
 				<div class="col-md-3 branch-gd-main">
-				  <div class="branch-gd went-branc2">
-				  <a href="#o" rel="title" class="thickbox">
-					<img src="images/o.JPG" alt="" class="img-responsive">
-				</a>
-                  </div>
-				  <div class="branch-gd">
-				  <a href="#pool" rel="title" class="thickbox">
-						<img src="images/pool.jpg" alt="" class="img-responsive">
+					<div class="branch-gd went-branc2">
+						<a href="#o" rel="title" class="thickbox">
+							<img src="images/o.JPG" alt="" class="img-responsive">
+						</a>
+					</div>
+					<div class="branch-gd">
+						<a href="#pool" rel="title" class="thickbox">
+							<img src="images/pool.jpg" alt="" class="img-responsive">
 						</a>
 					</div>	
 				</div>
 			</div>
-		  <div class="clearfix"> </div>
+			<div class="clearfix"> </div>
 		</div>
-</div>
-<!--branches end here-->
-<div class="branch-text">
-   <div class="container">
+	</div>
+	<!--branches end here-->
+	<div class="branch-text">
+		<div class="container">
 			<span class="quotations"> </span>
 			<p>Spring Lodge is located in Nyaung Shwe town, Inle Lake, Myanmar which is also known as Venice of the East. Located in the 0.4 hector of land at a quiet area of Nyaung Shwe, Spring Lodge just have 14 rooms with spacious room area at 43 sq-m. Hence, for those who are looking for a quite area at a busy place, Spring Lodge is a choice for you.</p>
-  </div>
-</div>
-<!--swiming-->
+		</div>
+	</div>
+	<!--swiming-->
 <!--<div class="swimming">
 	<div class="container">
 		<div class="swimming-main wow zoomIn" data-wow-delay="0.3s">
@@ -404,11 +410,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<div class="date">February 29, 2016</div>							
 							</div>
 							<div class="mask"> </div>
-					    </a>-->
+						</a>-->
 						<div class="item-img">
-						<a href="#room1">
+							<a href="#room1">
 								<img src="images/room1.jpg" class="img-responsive" alt="">
-								</a>
+							</a>
 						</div>
 					</div>
 
@@ -424,11 +430,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<div class="date">February 29, 2016</div>							
 							</div>
 							<div class="mask"> </div>
-					    </a>-->
+						</a>-->
 						<div class="item-img">
-						<a href="#room2">
+							<a href="#room2">
 								<img src="images/room2.jpg" class="img-responsive" alt="">
-								</a>
+							</a>
 						</div>
 					</div>
 				</div>
@@ -443,17 +449,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<div class="date">February 29, 2016</div>							
 							</div>
 							<div class="mask"> </div>
-					    </a>-->
+						</a>-->
 						<div class="item-img">
 							<a href="#k1">
 								<img src="images/k1.JPG" class="img-responsive" alt="">
-								</a>
+							</a>
 						</div>
 					</div>
 				</div>
-			  <div class="clearfix"> </div>
+				<div class="clearfix"> </div>
 			</div>
-		  <div class="clearfix"> </div>
+			<div class="clearfix"> </div>
 		</div>
 	</div>
 </div>
@@ -468,12 +474,33 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<!--</div>-->
 				<!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
 				<a href="single.html" class="ftr-btn">Read More</a>-->
-			<!--</div>-->
-			<div class="col-md-12 ftr-grid ftr-mid wow zoomIn" data-wow-delay="0.3s">
-				 <h3>Address</h3>
-				 <span class="ftr-line flm"> </span>
-				<p style="font-size: 20px;font-family: sans-serif;font-weight: 200">76 - 78,Nan Thae St, Nann Pan Qtr, Nyaung Shwe,Shan State</p>
-				
+				<!--</div>-->
+				<div class="col-md-12 ftr-grid ftr-mid wow zoomIn" data-wow-delay="0.3s">
+					<h3>Address</h3>
+					<span class="ftr-line flm"> </span>
+					<p style="font-size: 20px;font-family: sans-serif;font-weight: 200">76 - 78,Nan Thae St, Nann Pan Qtr, Nyaung Shwe,Shan State</p>
+					 <div id="map"></div>
+					<script>
+						function initMap() {
+							var uluru = {lat: 20.6571265, lng: 96.9237735};
+							var map = new google.maps.Map(document.getElementById('map'), {
+								zoom: 17,
+								center: uluru
+							});
+							var marker = new google.maps.Marker({
+								position: uluru,
+								map: map
+							});
+							center = bounds.getCenter();
+							map.fitBounds(bounds);
+						}
+
+
+
+					</script>
+					<script async defer
+					src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCdYLYNETtbgE4OEuINGFo59pKPantTmck&callback=initMap">
+				</script>
 				
 				
 				
@@ -491,7 +518,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				 	<li><a href="#"><span class="link"> </span></a></li>
 				 	<li><a href="#"><span class="gmail"> </span></a></li>
 				 </ul>
-			</div>-->
+				</div>-->
 			<!--<div class="col-md-3 ftr-grid ftr-last-gd ftr-rit wow zoomIn" data-wow-delay="0.3s">
 				 <h3>Quick Link</h3>
 				  <ul class="ftr-nav">
@@ -501,13 +528,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				 	<li><a href="room.html">Rooms</a></li>
 				 	<li><a href="contact.html">Contact</a></li>
 				 </ul>
-			</div>-->
-			<div class="clearfix"> </div>
+				</div>-->
+				<div class="clearfix"> </div>
+			</div>
 		</div>
 	</div>
-</div>
-<!--footer end here-->
-<!--copy rights start here-->
+	<!--footer end here-->
+	<!--copy rights start here-->
 <!--<div class="copy-right">
 	<div class="container">
 		 <div class="copy-rights-main wow zoomIn" data-wow-delay="0.3s">
@@ -519,13 +546,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="container">
 		<div class="top-header-main">
 			<div class="col-md-4 top-social wow bounceInLeft" data-wow-delay="0.3s">
-			    <ul>
-			    	<li><h5>Follow Us :</h5></li>
-			    	<li><a href="https://www.facebook.com/SPRINGLODGEINLE/"><span class="fb"> </span></a></li>
-			    				    </ul>
+				<ul>
+					<li><h5>Follow Us :</h5></li>
+					<li><a href="https://www.facebook.com/SPRINGLODGEINLE/"><span class="fb"> </span></a></li>
+				</ul>
 			</div>
 			<div class="col-md-4 header-address wow bounceInRight" data-wow-delay="0.3s">
-			
+
 			</div>
 			<div class="col-md-4 header-address wow bounceInRight" data-wow-delay="0.3s">
 				<ul>
@@ -534,82 +561,82 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<li><span class="email"> </span><h6><a href="mailto:contact@springinle.com">contact@springinle.com</a></h6></li>
 				</ul>
 			</div>
-		  <div class="clearfix"> </div>
+			<div class="clearfix"> </div>
 		</div>
 	</div>
 </div>
- <div class="lightbox-target" id="ax">
-   <img  src="images/ax.jpg"/>
-   <a class="lightbox-close" href="#"></a>
+<div class="lightbox-target" id="ax">
+	<img  src="images/ax.jpg"/>
+	<a class="lightbox-close" href="#"></a>
 </div>
 
- <div class="lightbox-target" id="room1">
-   <img  src="images/room1.jpg"/>
-   <a class="lightbox-close" href="#"></a>
+<div class="lightbox-target" id="room1">
+	<img  src="images/room1.jpg"/>
+	<a class="lightbox-close" href="#"></a>
 </div>
- <div class="lightbox-target" id="room2">
-   <img  src="images/room2.jpg"/>
-   <a class="lightbox-close" href="#"></a>
+<div class="lightbox-target" id="room2">
+	<img  src="images/room2.jpg"/>
+	<a class="lightbox-close" href="#"></a>
 </div>
- <div class="lightbox-target" id="ss">
-   <img  src="images/ss.jpg"/>
-   <a class="lightbox-close" href="#"></a>
+<div class="lightbox-target" id="ss">
+	<img  src="images/ss.jpg"/>
+	<a class="lightbox-close" href="#"></a>
 </div>
- <div class="lightbox-target" id="b">
-   <img  src="images/b.JPG"/>
-   <a class="lightbox-close" href="#"></a>
-</div>
-
- <div class="lightbox-target" id="m">
-   <img  src="images/m.JPG"/>
-   <a class="lightbox-close" href="#"></a>
+<div class="lightbox-target" id="b">
+	<img  src="images/b.JPG"/>
+	<a class="lightbox-close" href="#"></a>
 </div>
 
- <div class="lightbox-target" id="o">
-   <img  src="images/o.JPG"/>
-   <a class="lightbox-close" href="#"></a>
+<div class="lightbox-target" id="m">
+	<img  src="images/m.JPG"/>
+	<a class="lightbox-close" href="#"></a>
+</div>
+
+<div class="lightbox-target" id="o">
+	<img  src="images/o.JPG"/>
+	<a class="lightbox-close" href="#"></a>
 </div>
 
 <div class="lightbox-target" id="k1">
-   <img  src="images/k1.JPG"/>
-   <a class="lightbox-close" href="#"></a>
+	<img  src="images/k1.JPG"/>
+	<a class="lightbox-close" href="#"></a>
 </div>
 
- <div class="lightbox-target" id="k">
-   <img  src="images/k.JPG"/>
-   <a class="lightbox-close" href="#"></a>
+<div class="lightbox-target" id="k">
+	<img  src="images/k.JPG"/>
+	<a class="lightbox-close" href="#"></a>
 </div>
 
- <div class="lightbox-target" id="l">
-   <img  src="images/l.JPG"/>
-   <a class="lightbox-close" href="#"></a>
+<div class="lightbox-target" id="l">
+	<img  src="images/l.JPG"/>
+	<a class="lightbox-close" href="#"></a>
 </div>
- <div class="lightbox-target" id="pool">
-   <img  src="images/pool.jpg"/>
-   <a class="lightbox-close" href="#"></a>
+<div class="lightbox-target" id="pool">
+	<img  src="images/pool.jpg"/>
+	<a class="lightbox-close" href="#"></a>
 </div>
 
 <script>
-var slideIndex = 1;
-showDivs(slideIndex);
+	var slideIndex = 1;
+	showDivs(slideIndex);
 
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
+	function plusDivs(n) {
+		showDivs(slideIndex += n);
+	}
 
 
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";  
-  }
-  x[slideIndex-1].style.display = "block";  
-}
+	function showDivs(n) {
+		var i;
+		var x = document.getElementsByClassName("mySlides");
+		if (n > x.length) {slideIndex = 1}    
+			if (n < 1) {slideIndex = x.length}
+				for (i = 0; i < x.length; i++) {
+					x[i].style.display = "none";  
+				}
+				x[slideIndex-1].style.display = "block";  
+			}
 
-</script>
+		</script>
 
-</body>
-</html>
+	</body>
+	</html>
